@@ -1,6 +1,6 @@
 Treatment Tracer Project
 Project Overview
-Treatment Tracer is a microservices-based application designed to manage and trace medical treatments and related information. It leverages the power of:
+ Treatment Tracer is a microservices-based application designed to manage and trace medical treatments and related information. It leverages the power of:
 •	Spring Boot
 •	Spring Cloud
 •	Spring Cloud Config
@@ -23,9 +23,9 @@ The project follows a microservices architecture with the following components:
 9.	MySQL - Relational database management.
 
 Project Setup
- Clone the Repository
-git clone https://github.com/pbhendarkar/treatment-tracer.git
-cd treatment-tracer
+    Clone the Repository
+    git clone https://github.com/pbhendarkar/treatment-tracer.git
+    cd treatment-tracer
 
 Build and Run using Docker Compose
 Step 1: Clean and package the services
@@ -38,7 +38,6 @@ Step 3: Check running containers
 Access the Services
 Service	Port	URL
 Eureka Server	8761	Eureka Dashboard
-
 API Gateway	8080	Gateway
 Auth Service	8082	Auth API
 User Profile	8081	User API
